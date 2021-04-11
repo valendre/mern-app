@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-    const [response, setResponse] = useState('Oops, something went wrong...')
+    const [response, setResponse] = useState('...')
     useEffect(() =>{
         async function checkAPIRoute() {
             try {
@@ -36,7 +36,7 @@ function App() {
           rel="noopener noreferrer"
         >
         </a>
-        <h1>The API call is..........</h1>
+        <h1>The API call is...</h1>
           <h2>{response}</h2>
       </header>
     </div>
