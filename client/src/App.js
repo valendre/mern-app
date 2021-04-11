@@ -10,7 +10,7 @@ function App() {
                     `${host}/api`
                 )
                 if (response.status === 200) {
-                    setResponse(response.toString)
+                    setResponse('Succes: '+response.toString)
                 }
             } catch (err) {
                 setResponse(err.toString)
@@ -22,7 +22,7 @@ function App() {
   return (
     <div>
         <h1>Mern-app</h1>
-        <h2>The API call is...</h2>
+        <h2>The API call is..</h2>
         <p>{response}</p>
     </div>
   );
