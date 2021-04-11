@@ -24,7 +24,7 @@ function App() {
         <h1>Mern-app</h1>
         <h2>The API call is..</h2>
         <p>{response}</p>
-        <p>2</p>
+        <p>3</p>
     </div>
   );
 }
