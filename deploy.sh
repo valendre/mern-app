@@ -1,6 +1,6 @@
 #!/bin/sh     
-sudo git pull origin main
-sudo npm install
+git pull origin main
+npm install
 cd client
 npm install
 sudo chown -R $USER:$USER /home/ubuntu/mern-app/client
