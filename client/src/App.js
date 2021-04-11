@@ -5,7 +5,7 @@ function App() {
     useEffect(() =>{
         async function checkAPIRoute() {
             try {
-                const host = process.env.REACT_APP_HOST"
+                const host = process.env.REACT_APP_HOST
                 const response = await fetch(
                     `${host}/api`
                 )
