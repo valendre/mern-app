@@ -10,7 +10,7 @@ function App() {
                     `${host}/api`
                 )
                 if (response.status === 200) {
-                    setResponse('Succes: '+response.toString)
+                    setResponse('status: ' + response.status)
                 }
             } catch (err) {
                 setResponse(err.toString)
